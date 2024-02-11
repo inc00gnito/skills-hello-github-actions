@@ -8,3 +8,6 @@ jobs:
   build:
     name: Post welcome comment
     runs-on: ubuntu-latest
+    steps:
+      - name: Placeholder Step
+        run: echo "Hello, world!"
